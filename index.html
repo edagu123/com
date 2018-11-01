@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=0">
+    <title>我要挂号</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 7.5 + 'px';
+        })
+    </script>
+</head>
+<body>
+<div class="container">
+    <div class="item clearfix">
+        <a class="item-hos" href="http://sch.cd120.info/hyt/wechat/index?hisCode=HID0101"><img src="img/huaxi.png"> </a>
+        <div class="s-block clearfix">
+            <div class="s-head clearfix">
+                <div class="s-logo"></div>
+                <div class="s-car"><i class="icon-img car"></i><a href="028-85422286" class="em-tell"> 028-85422286</a> </div>
+                <div class="s-opt" onclick="showMore(this)">
+                    <span>展开</span>
+                    <i class="icon-img open"></i>
+                </div>
+            </div>
+            <div class="s-item">
+                <div class="inner-head">
+                    <i class="icon-img phone"></i> <span>电话预约</span>
+                </div>
+                <p>挂号：拨打电话<a href="tel:400-1681-120"> 400-1681-120</a>，报就诊卡号或医保卡号，预约相应医生</p>
+            </div>
+            <div class="contianer hide">
+                <div class="s-item">
+                    <div class="inner-head">
+                        <i class="icon-img weixin"></i> <span>微信预约</span>
+                    </div>
+                    <p>①关注微信公众号“四川大学华西医院”进行预约挂号</p>
+                    <p>②关注微信公众号“成都商报四川名医”进行预约挂号</p>
+                    <p>③关注微信公众号“健康四川官微”进行预约挂号</p>
+                </div>
+                <div class="s-item">
+                    <div class="inner-head">
+                        <i class="icon-img hospital"></i> <span>自助挂号机预约</span>
+                    </div>
+                    <p>持身份证、就诊卡、银行卡到门诊大厅自助机处进行预约</p>
+                </div>
+                <div class="s-item">
+                    <div class="inner-head">
+                        <i class="icon-img network"></i> <span>网络预约</span>
+                    </div>
+                    <p>登录官网：<a href="http://www.cd120.com"> www.cd120.com </a>进行预约挂号</p>
+                </div>
+                <div class="s-item">
+                    <div class="inner-head">
+                        <i class="icon-img app"></i> <span>手机APP预约</span>
+                    </div>
+                    <p>下载“华医通”APP进行预约挂号</p>
+                </div>
+                <div class="s-item">
+                    <div class="inner-head">
+                        <i class="icon-img alipay"></i> <span>支付宝预约</span>
+                    </div>
+                    <p>支付宝搜索“四川大学华西医院”进行预约挂号</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="short-line mrg-t4"></div>
+    <div class="item clearfix">
+        <a class="item-hos" href="http://ts3.daxiang91.com/TestNew/App?source=wx&app_id=wxcfe1eac1b8fe5599&controllerName=Appointment&actionName=SelectHospital&hospitalId=20088"><img src="img/sheng.png"> </a>
+        <div class="s-block clearfix">
+            <div class="s-head clearfix">
+                <div class="s-logo"></div>
+                <div class="s-car"><i class="icon-img car"></i><a href="028-87769262" class="em-tell">028-87769262</a> </div>
+                <div class="s-opt" onclick="showMore(this)">
+                    <span>展开</span>
+                    <i class="icon-img open"></i>
+                </div>
+            </div>
+            <div class="s-item">
+                <div class="inner-head">
+                    <i class="icon-img weixin"></i> <span>微信预约</span>
+                </div>
+                <p>①关注微信公众号“四川省人民医院”或扫描二维码进行预约挂号</p>
+                <p>②关注微信公众号“健康四川官微”进行预约挂号</p>
+            </div>
+            <div class="contianer hide">
+                <div class="s-item">
+                    <div class="inner-head">
+                        <i class="icon-img hospital"></i> <span>自助挂号机预约</span>
+                    </div>
+                    <p>持身份证、就诊卡、银行卡到门诊大厅自助机处进行预约</p>
+                </div>
+                <div class="s-item">
+                    <div class="inner-head">
+                        <i class="icon-img alipay"></i> <span>支付宝预约</span>
+                    </div>
+                    <p>支付宝搜索“四川省人民医院”进行预约挂号</p>
+                </div>
+                <div class="s-item">
+                    <div class="inner-head">
+                        <i class="icon-img app"></i> <span>手机APP预约</span>
+                    </div>
+                    <p>下载“四川省人民医院”APP进行预约挂号</p>
+                </div>
+                <div class="s-item">
+                    <div class="inner-head">
+                        <i class="icon-img treat"></i> <span>诊间预约</span>
+                    </div>
+                    <p>医生诊疗完成后，可直接为患者预约下次就诊时间，患者凭金康卡到自助机取号。银行卡或微信、支付宝、现金当场支付</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script type="text/javascript">
+    function showMore(e) {
+        var con = $(e).parent().parent().find('.contianer');
+        if ($(con).hasClass('hide')){
+            $(e).find('span').text('收起');
+            $(e).find('.icon-img').removeClass('open').addClass('arrow-d');
+            $(con).removeClass('hide');
+        }else {
+            $(e).find('span').text('展开');
+            $(e).find('.icon-img').removeClass('arrow-d').addClass('open');
+            $(con).addClass('hide');
+        }
+    }
+</script>
+</body>
+</html>

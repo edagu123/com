@@ -1,0 +1,35 @@
+.item{width: 100%;}
+.item-hos{display:block;width: 100%;margin-top: .4rem;font-size: 0;padding: 0 .3rem;box-sizing: border-box;}
+.item-hos img{display:block;width: 100%;}
+.s-block{width: 100%;}
+.s-head{width: 100%;margin-top: .3rem;padding: 0 .4rem;box-sizing: border-box;}
+.s-logo{width: 67px;height: 16px;float: left;background: url("../img/strategy.png") no-repeat;background-size: 100% 100%;}
+.s-car{float: left;font-size: 13px;}
+.s-car .car{width: 16px;height: 15px;margin: 0 4px 0 10px;}
+.s-car a{color: #ff5c5d;}
+.s-opt{float: right;overflow: hidden;zoom: 1;font-size: 12px;color: #999;}
+.s-opt .icon-img{width: 13px;height: 8px;vertical-align: 4%;}
+.s-item{width: 100%;margin-top: .3rem;padding: 0 .4rem;box-sizing: border-box;}
+.inner-head{width: 100%;font-size: 15px;color: #3c8cfb;}
+.inner-head .icon-img{width: 14px;height: 14px;}
+.inner-head .phone{vertical-align: -14%;}
+.inner-head .network{vertical-align: -8%;}
+.inner-head .weixin{width: 19px;height: 15px;vertical-align: -10%;}
+.inner-head .hospital{width: 18px;height: 18px;vertical-align: -10%;}
+.inner-head .app{width: 13px;height: 15px;vertical-align: -10%;}
+.inner-head .treat{width: 14px;height: 15px;vertical-align: -10%;}
+.s-item p{width: 100%;font-size: 15px;color: #222;margin-top: .2rem;}
+.s-item a{color: #222;}
+
+
+
+.open{background-image: url("../img/up.png")}
+.arrow-d{background-image: url("../img/down.png")}
+.phone{background-image: url("../img/phone.png")}
+.network{background-image: url("../img/network.png")}
+.weixin{background-image: url("../img/weixin.png")}
+.hospital{background-image: url("../img/hospital.png");}
+.car{background-image: url("../img/car.png");}
+.alipay{background-image: url("../img/alipay.png")}
+.app{background-image: url("../img/app.png")}
+.treat{background-image: url("../img/treat.png")}
