@@ -23,7 +23,7 @@
                 <div class="s-car"><i class="icon-img car"></i><a href="028-85422286" class="em-tell"> 028-85422286</a> </div>
                 <div class="s-opt" onclick="showMore(this)">
                     <span>展开</span>
-                    <i class="icon-img open"></i>
+                    <i class="icon-img arrow-d"></i>
                 </div>
             </div>
             <div class="s-item">
@@ -77,15 +77,15 @@
                 <div class="s-car"><i class="icon-img car"></i><a href="028-87769262" class="em-tell"> 028-87769262</a> </div>
                 <div class="s-opt" onclick="showMore(this)">
                     <span>展开</span>
-                    <i class="icon-img open"></i>
+                    <i class="icon-img arrow-d"></i>
                 </div>
             </div>
             <div class="s-item">
                 <div class="inner-head">
                     <i class="icon-img weixin"></i> <span>微信预约</span>
                 </div>
-                <p>①&nbsp;&nbsp;&nbsp;&nbsp;关注微信公众号“四川省人民医院”或扫描二维码进行预约挂号</p>
-                <p>②&nbsp;&nbsp;关注微信公众号“健康四川官微”进行预约挂号</p>
+                <p>①&nbsp;关注微信公众号“四川省人民医院”或扫描二维码进行预约挂号</p>
+                <p>②&nbsp;关注微信公众号“健康四川官微”进行预约挂号</p>
             </div>
             <div class="contianer hide">
                 <div class="s-item">
@@ -121,11 +121,11 @@
         var con = $(e).parent().parent().find('.contianer');
         if ($(con).hasClass('hide')){
             $(e).find('span').text('收起');
-            $(e).find('.icon-img').removeClass('open').addClass('arrow-d');
+            $(e).find('.icon-img').removeClass('arrow-d').addClass('open');
             $(con).removeClass('hide');
         }else {
             $(e).find('span').text('展开');
-            $(e).find('.icon-img').removeClass('arrow-d').addClass('open');
+            $(e).find('.icon-img').removeClass('open').addClass('arrow-d');
             $(con).addClass('hide');
         }
     }
